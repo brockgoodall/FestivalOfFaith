@@ -1,0 +1,74 @@
+input, textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: 0;
+}
+
+body {
+    font-family: Helvetica, Calibri, Arial, sans-serif;
+    background: black;
+    color: white;
+    margin: 0;
+}
+
+#banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1500px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.button {
+    margin: 0 auto;
+    background-color: white;
+    cursor: pointer;
+  	border: none;
+  	color: black;
+  	padding: 22px 18px;
+  	width: 30vw;
+    max-width: 175px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: block;
+  	font-size: 20px;
+  	transition-duration: 0.2s;
+  	text-decoration: none;
+  	vertical-align: middle;
+}
+
+.button:hover {
+    background: gray;
+    color: white;
+}
+
+.button:active {
+    background: white;
+    color: black;
+}
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 26px;
+    }
+    
+    .button {
+        font-size: 16px;
+    }
+}
+
+footer {
+    color: white;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    font-size: 10px;
+}
